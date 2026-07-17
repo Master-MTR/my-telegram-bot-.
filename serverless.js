@@ -16,7 +16,7 @@ import {
 } from './security.js';
 
 const SUPER_ADMIN_ID = process.env.SUPER_ADMIN_ID ? parseInt(process.env.SUPER_ADMIN_ID) : 123456789;
-const BOT_TOKEN = process.env.BOT_TOKEN || 'YOUR_BOT_TOKEN_FROM_BOTFATHER';
+const BOT_TOKEN = process.env.BOT_TOKEN || '8762359116:AAEim-bvrYHjVo-9dwxHJJgtPDV9iyl884U';
 
 // Database Schema
 const Stores = table('stores', {
