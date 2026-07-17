@@ -1,0 +1,24 @@
+{
+  "name": "telegram-iranian-store-builder",
+  "version": "1.0.0",
+  "description": "Full Telegram Serverless Iranian SaaS Store Builder & Mini App Engine",
+  "type": "module",
+  "scripts": {
+    "dev": "tgcloud run serverless.js",
+    "deploy": "tgcloud push",
+    "status": "tgcloud status"
+  },
+  "dependencies": {
+    "@tgcloud/bot": "latest"
+  },
+  "keywords": [
+    "telegram",
+    "serverless",
+    "mini-app",
+    "zarinpal",
+    "iran-ecommerce",
+    "tgcloud"
+  ],
+  "author": "Telegram AI Builder",
+  "license": "MIT"
+}
